@@ -7,9 +7,6 @@ module.exports = {
   devtool: 'source-map',
   entry: {
     app: [
-      'webpack-dev-server/client?http://localhost:3000',
-      // 'webpack/hot/only-dev-server',
-      'webpack/hot/dev-server',
       "./src/main.js"
     ]
   },
@@ -19,7 +16,6 @@ module.exports = {
     filename: "bundle.js"
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       title: 'react-webpack-demo'
     })

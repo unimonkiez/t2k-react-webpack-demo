@@ -21,13 +21,6 @@ export default class App extends Component {
             />
           ))
         }
-        {
-          this.state.todos.map((todo, i) => (
-            <div key={i}>
-              {todo.text}
-            </div>
-          ))
-        }
       </div>
     );
   }

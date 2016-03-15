@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./server.js",
+    "start": "webpack-dev-server --inline --hot",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://unimonkiez@github.com/unimonkiez/t2k-react-webpack-demo.git"
+    "url": "git+https://github.com/unimonkiez/t2k-react-webpack-demo.git"
   },
   "author": "Yuval Saraf",
   "license": "MIT",
